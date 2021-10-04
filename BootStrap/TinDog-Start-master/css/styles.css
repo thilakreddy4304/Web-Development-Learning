@@ -1,0 +1,169 @@
+#title {
+    background-color: #b4aee8;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+    padding-bottom: 40px;
+}
+
+h3{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+h2{
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+    line-height: 1.5;
+    text-align: center;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+p{
+    color: #8f8f8f;
+    text-align: center;
+}
+.navbar-brand{
+    font-size: 2.0rem;
+    font-weight: bold;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 12px;
+}
+
+.nav-link{
+    font-size: 1.0rem;
+}
+
+.download-button{
+    margin: 0 3% 5% 0;
+}
+
+.iphone{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.fa-check-circle{
+    color: #b4aee8;
+    margin-bottom: 1rem;
+}
+
+.fa-bullseye{
+    color: #b4aee8;
+    margin-bottom: 1rem;
+}
+
+.fa-heart{
+    color: #b4aee8;
+    margin-bottom: 1rem;
+}
+
+.fa-bullseye:hover{
+    color: #93329e;
+}
+
+.fa-check-circle:hover{
+    color: #93329e;
+}
+
+.fa-heart:hover{
+    color: #93329e;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #b4aee8;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text{
+    color: #fff;
+}
+#press{
+    background-color: #b4aee8;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.card-deck{
+    padding-top: 50px;
+}
+
+#cta{
+    background-color: #b4aee8;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cta-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-bottom: 40px;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon{
+    margin-left: 1.8%;
+    margin-right: 1.8%;
+}
+
+@media (max-width: 1000px){
+
+    #title{
+        text-align: center;
+    }
+    .iphone{
+        position: static;
+        transform: rotate(0);
+    }
+}
